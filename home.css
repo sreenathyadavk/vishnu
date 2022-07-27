@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Creepster&display=swap');
+
+img{
+  /* width: 600px;  */
+ /* height: 60px;  */
+}
+
+#image_top{
+    height: 500px;
+    width: 500px;
+}
+.section-text ,#info{
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: larger;
+}
+
+#original{
+  height: 1000px;
+  width: 700px;
+}
+
+#carouselExampleControls{
+ width: 600px; 
+ height: 60px;
+}
+
+#original{
+  height : 500px;
+}
+#helo{
+
+}
