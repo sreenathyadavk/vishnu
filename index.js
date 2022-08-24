@@ -93,7 +93,15 @@ class ControlManerger{
 
 
 }
+function update() {
+    const d = new Date();
+    document.getElementById("hr").innerHTML=d.getHours().toString()+" hr : ";
+    document.getElementById("min").innerHTML=d.getMinutes().toString()+" min : ";
+    document.getElementById("sec").innerHTML=d.getSeconds().toString()+" sec : ";
+    console.log(hr,min,sec);
+    console.log('update function started...');
 
+}
 
 function pageControllerMain() {
     const d = new Date();
@@ -103,11 +111,13 @@ function pageControllerMain() {
     console.log('starting page controller');
     console.log('starting audio controller');
 
+
 //--------------------------------------------
     document.getElementById('original').style.display = "none";
     document.getElementById('prev').style.display = "none";
     document.getElementById('next').style.display = "none";
-
+//------------
+update();
 
 }
 function x() {
@@ -297,3 +307,11 @@ function audioController() {
 }
 
 pageControllerMain();
+function everyTime() {
+    console.log('each 1 second...');
+    update();
+    console.log('update function started @ SetInterval');
+
+}
+
+var myInterval = setInterval(everyTime, 1000);
