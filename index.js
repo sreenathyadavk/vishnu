@@ -98,7 +98,7 @@ function update() {
     document.getElementById("hr").innerHTML=d.getHours().toString()+" hr : ";
     document.getElementById("min").innerHTML=d.getMinutes().toString()+" min : ";
     document.getElementById("sec").innerHTML=d.getSeconds().toString()+" sec  ";
-    console.log(hr,min,sec);
+    //console.log(hr,min,sec);
     console.log('update function started...');
 
 }
