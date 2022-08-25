@@ -30,3 +30,6 @@ img{
 #helo{
 
 }
+#hr,#min,#sec{
+  padding: 5px;
+}
