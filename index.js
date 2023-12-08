@@ -99,7 +99,7 @@ function update() {
     document.getElementById("min").innerHTML=d.getMinutes().toString()+" min : ";
     document.getElementById("sec").innerHTML=d.getSeconds().toString()+" sec  ";
     //console.log(hr,min,sec);
-    console.log('update function started...');
+    //console.log('update function started...');
 
 }
 
