@@ -308,9 +308,9 @@ function audioController() {
 
 pageControllerMain();
 function everyTime() {
-    console.log('each 1 second...');
+    //console.log('each 1 second...');
     update();
-    console.log('update function started @ SetInterval');
+    //console.log('update function started @ SetInterval');
 
 }
 
